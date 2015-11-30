@@ -61,6 +61,23 @@
             android:name=".PullToRefreshWebView2Activity"
             android:label="PtR WebView Advanced" >
         </activity>
+        <activity
+            android:name=".PullToRefreshSwipeListViewActivity"
+            android:label="PtR Swipe ListView" >
+        </activity>
+        <activity
+            android:name=".swipemenu.PullToRefreshSwipeMenuListViewActivity"
+            android:label="PtR SwipeMenu ListView"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".swipemenu.SimpleActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".swipemenu.DifferentMenuActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
     </application>
 
     <!-- For WebView Sample -->
